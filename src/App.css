@@ -1,0 +1,71 @@
+.button{
+  display: flex;
+  height: 3em;
+  flex:1;
+  justify-content: center;
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: #888;
+  border-radius: 25%;
+  margin:5px;
+  animation: change-background 4s ease infinite;
+}
+/* continously cahange background color */
+@keyframes change-background {
+  0% {
+    background: #69b7eb;
+  }
+  50% {
+    background: #b3dbd3;
+  }
+  100% {
+    background: #f4d6db;
+  }
+}
+
+/* App div which contaons everthing */
+.App{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width:100%;
+  margin-top: 100px;
+}
+
+/* calculator wrapping editing */
+.calculator{
+  width: 400px;
+  height: 600px;
+}
+/* button row editing */
+.row{
+  display: flex;
+  width: 100%;
+}
+/* User input editing */
+.inputWrapper{
+  background-color: #e8b7ec;
+  display: flex;
+  flex:1;
+}
+.input{
+  display: flex;
+  height: 3.5em;
+  flex:1;
+  color:#fff;
+  padding: 0.5em;
+  font-size: 1.4em;
+  justify-content: flex-end;
+  font-weight: bold;
+  
+}
+/* clear button editing */
+.clear-btn{
+  display: flex;
+  flex:1;
+  height: 4em;
+  font-size: 1.em;
+  justify-content: center;
+  font-weight: bolder;
+  background-color: #e8b7ec;
+}
